@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="js/js.js"></script>
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="zhuye-toubu">
+        <div class="zhuye-toubu-box">
+            <div class="zhuye-toubu-box-1">
+                <h1>米素壁纸</h1>
+                <p>m e s u</p>
+            </div>
+            <h3>生活艺术家</h3>
+            <ul>
+                <li>简体中文</li>
+                <span>|</span>
+                <li>English</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部结束 -->
+
+    <!-- 导航开始 -->
+    <div class="daohang">
+        <div class="daohang-box">
+            <ul>
+                <a href="index.html"><img src="images/01_03.png" height="13" width="13" alt="">首页</a>
+                <a href="guanyu.html">关于米素</a>
+                <a href="product.html">产品中心</a>
+                <a href="news.html">新闻资讯</a>
+                <a href="">O2O</a>
+                <a href="serve.html">服务平台</a>
+                <a href="contact.html">联系我们</a>
+                <a href="">天猫商城</a>
+            </ul>
+            <form action="">
+                <input type="text" value="keyworlds">
+                <button>搜</button>
+            </form>
+        </div>
+    </div>
+    <!-- 导航结束 -->
+
+    <!-- 轮播开始 -->
+    <div id="slideBox" class="slideBox">
+        <div class="bd">
+            <ul>
+                <li>
+                    <a href="" target="_blank"><img src="images/1-150H30Z5540-L.jpg" /></a>
+                </li>
+                <li>
+                    <a href="" target="_blank"><img src="images/1-150H30Z5220-L.jpg" /></a>
+                </li>
+                <li>
+                    <a href="" target="_blank"><img src="images/1-15120Q6263YP.jpg" /></a>
+                </li>
+            </ul>
+        </div>
+        <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+        <a class="prev" href="javascript:void(0)">
+            <</a>
+                <a class="next" href="javascript:void(0)">></a>
+    </div>
+    <script type="text/javascript">
+        jQuery(".slideBox").slide({
+            mainCell: ".bd ul",
+            autoPlay: true
+        });
+    </script>
+    <!-- 轮播结束 -->
+
+    <!-- 内容开始 -->
+    <div class="product-box">
+        <div class="product-box-1">
+            <a href=""><img src="images/1-150H30Z2160-L.jpg" alt=""></a>
+        </div>
+        <div class="product-box-1"><img src="images/1-150H30Z3410-L.jpg" alt=""></div>
+        <div class="product-box-1"><img src="images/1-150H30Z4430-L.jpg" alt=""></div>
+        <div class="product-box-1"><img src="images/1-150H30Z5220-L.jpg" alt=""></div>
+        <div class="product-box-1"><img src="images/1-150H30Z5540-L.jpg" alt=""></div>
+        <div class="product-box-1"><img src="images/1-150H30Z6380-L.jpg" alt=""></div>
+    </div>
+    <!-- 内容结束 -->
+
+    <!-- 底部开始 -->
+    <div class="dibu">
+        <div class="dibu-box">2000－2016 北京尚观科技有限公司版权所有 京ICP备09018548号</div>
+    </div>
+    <!-- 底部结束 -->
+</body>
+
+</html>
